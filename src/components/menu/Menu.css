@@ -1,30 +1,30 @@
-.App {
+.Menu {
   text-align: center;
 }
 
-.App-logo {
+.Menu-logo {
   height: 40vmin;
 }
 
-.App-header {
+.Menu-header {
   padding: 20px;
   border-top: 2px solid #F25050;
   border-bottom: 1px solid #F2F2F2;
 }
 
-.App-title {
+.Menu-title {
   font-weight: bold;
   color: #F25050;
   font-size: 35px;
 }
 
-.App-menu-item {
+.Menu-menu-item {
   font-weight: bold;
   margin-right: 35px;
   font-size: 16px;
 }
 
-.App-menu-button {
+.Menu-menu-button {
   min-width: 125px;
   height: 40px;
   border-radius: 20px;
@@ -37,6 +37,6 @@
   position: relative;
 }
 
-.App-link {
+.Menu-link {
   color: #09d3ac;
 }
