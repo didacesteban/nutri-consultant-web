@@ -6,13 +6,13 @@ import { faComment, faHeadset, faUtensils } from '@fortawesome/free-solid-svg-ic
 function About() {
   return (
     <div>
-      <Menu />
+      <Menu sectionActive={'about'} />
       <div className="Section-separator text-center">
         <div className="Section-title">
           ¿Quienes somos <span className="Section-logo">Nutriconsultant.</span>?
         </div>
         <div className="Section-description">
-          
+
         </div>
       </div>
     </div>

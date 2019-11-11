@@ -28,6 +28,7 @@
   text-decoration: none;
   padding: 0 10px;
   position: relative;
+  border: 1px solid #F25050;
 }
 
 .Menu-link {
