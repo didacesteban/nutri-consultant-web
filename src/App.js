@@ -1,17 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
     <div className="App">
-      <div className="row">
+      <div className="row App-header">
         <div className="col col-lg-4 col-md-4 col-xs-12 text-left">
-          nutri-consultant
+          <span className="App-title">Nutriconsultant.</span>
         </div>
         <div className="col col-lg-8 col-md-8 hidde-xs text-right">
-          haz tu consulta | informate sobre nutrición
+          <span className="App-menu-item">Informate sobre nutrición</span>
+          <span className="App-menu-item">¿Quienes somos?</span>
+          <button className="App-menu-button">haz tu consulta</button>
         </div>
       </div>
     </div>
