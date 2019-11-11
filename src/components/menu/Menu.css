@@ -1,11 +1,3 @@
-.Menu {
-  text-align: center;
-}
-
-.Menu-logo {
-  height: 40vmin;
-}
-
 .Menu-header {
   padding: 20px;
   border-top: 2px solid #F25050;
@@ -35,8 +27,4 @@
   text-decoration: none;
   padding: 0 10px;
   position: relative;
-}
-
-.Menu-link {
-  color: #09d3ac;
 }

@@ -1,8 +1,6 @@
 import React from 'react';
 import './Menu.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function Menu() {
   return (
