@@ -1,6 +1,5 @@
 import React from 'react';
 import Menu from '../../components/menu/Menu';
-import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeadset, faUtensils } from '@fortawesome/free-solid-svg-icons'
 
