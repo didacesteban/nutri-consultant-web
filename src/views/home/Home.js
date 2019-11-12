@@ -1,10 +1,10 @@
 import React from 'react';
-import Menu from './components/menu/Menu';
-import './App.css';
+import Menu from '../../components/menu/Menu';
+import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeadset, faUtensils } from '@fortawesome/free-solid-svg-icons'
 
-function App() {
+function Home() {
   return (
     <div>
       <Menu />
@@ -38,4 +38,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

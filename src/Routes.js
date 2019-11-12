@@ -5,7 +5,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import App from './App';
+import Home from './views/home/Home';
 import Contact from './views/contact/Contact';
 import About from './views/about/About';
 import Blog from './views/blog/Blog';
@@ -15,7 +15,7 @@ export default function Routes() {
     <Router>
         <Switch>
           <Route exact path="/">
-            <App />
+            <Home />
           </Route>
           <Route path="/consulta-nutricional-online">
             <Contact />
