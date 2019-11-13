@@ -45,7 +45,7 @@ class Blog extends Component {
                   <a href="#" className="stretched-link">Leer más</a>
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                <img className="bd-placeholder-img" src={post.image} width="200" height="250" />
+                <img className="bd-placeholder-img" src={post.image} width="250" height="250" />
                 </div>
               </div>
             </div>
