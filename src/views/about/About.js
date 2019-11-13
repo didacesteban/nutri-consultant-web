@@ -11,9 +11,6 @@ function About() {
         <div className="Section-title">
           ¿Quienes somos <span className="Section-logo">Nutriconsultant.</span>?
         </div>
-        <div className="Section-description">
-
-        </div>
       </div>
     </div>
   );

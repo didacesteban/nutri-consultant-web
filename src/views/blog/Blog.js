@@ -11,9 +11,6 @@ function Blog() {
         <div className="Section-title">
           Blog de <span className="Section-logo">Nutrición.</span>
         </div>
-        <div className="Section-description">
-
-        </div>
       </div>
     </div>
   );

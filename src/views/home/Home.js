@@ -20,7 +20,7 @@ function Home() {
         <div className="col col-lg-4 col-md-4 col-xs-12 text-center">
           <div className="Section-icon"><FontAwesomeIcon icon={faComment} /></div>
           <div className="Section-title-small">Escríbenos</div>
-          Mandanos una consulta sobre nutición por e-mail y te ayudaremos lo antes posible
+          Mándanos una consulta sobre nutición por e-mail y te ayudaremos lo antes posible
         </div>
         <div className="col col-lg-4 col-md-4 col-xs-12 text-center">
           <div className="Section-icon"><FontAwesomeIcon icon={faHeadset} /></div>

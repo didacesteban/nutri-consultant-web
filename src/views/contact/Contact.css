@@ -1,0 +1,18 @@
+.Contact-form-layout {
+  padding: 50px;
+}
+
+.Contact-logo-layout {
+  padding: 50px;
+  background-color: #F25050;
+  color: white;
+}
+
+.Contact-logo {
+  font-size: 36px;
+}
+
+.Contact-logo-center-layout {
+  margin-top: auto;
+  margin-bottom: auto;
+}
