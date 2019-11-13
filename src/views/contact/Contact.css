@@ -1,11 +1,13 @@
 .Contact-form-layout {
   padding: 50px;
+  height: 460px;
 }
 
 .Contact-logo-layout {
   padding: 50px;
   background-color: #F25050;
   color: white;
+  height: 460px;
 }
 
 .Contact-logo {
@@ -15,4 +17,5 @@
 .Contact-logo-center-layout {
   margin-top: auto;
   margin-bottom: auto;
+  margin-top: 22%;
 }
