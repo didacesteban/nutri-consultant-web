@@ -1,5 +1,6 @@
 .Footer {
   padding: 20px;
-  border-top: 2px solid #F25050;
-  background-color: #F2F2F2;
+  border-bottom: 6px solid #F25050;
+  color: white;
+  background-color: #343a40;
 }
