@@ -21,6 +21,18 @@ class Blog extends Component {
         date: '18-12-1991',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
         link: ''
+      },{
+        image: 'https://instagram.fmad3-7.fna.fbcdn.net/vp/3c1454cbd4ba418d62c08c1d51fc431d/5E4916D4/t51.2885-15/sh0.08/e35/s640x640/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 640w,https://instagram.fmad3-7.fna.fbcdn.net/vp/091a95803812d67012a249799d3cede6/5E467DD4/t51.2885-15/sh0.08/e35/s750x750/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 750w,https://instagram.fmad3-7.fna.fbcdn.net/vp/25133263f66b0043f78a272210bd161b/5E68EA31/t51.2885-15/e35/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 1080w',
+        title: 'Hambre emocional',
+        date: '13-07-1989',
+        shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
+        link: ''
+      },{
+        image: 'https://instagram.fmad3-7.fna.fbcdn.net/vp/3c1454cbd4ba418d62c08c1d51fc431d/5E4916D4/t51.2885-15/sh0.08/e35/s640x640/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 640w,https://instagram.fmad3-7.fna.fbcdn.net/vp/091a95803812d67012a249799d3cede6/5E467DD4/t51.2885-15/sh0.08/e35/s750x750/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 750w,https://instagram.fmad3-7.fna.fbcdn.net/vp/25133263f66b0043f78a272210bd161b/5E68EA31/t51.2885-15/e35/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 1080w',
+        title: 'Hambre emocional 2',
+        date: '18-12-1991',
+        shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
+        link: ''
       }]
     }
   }
