@@ -10,25 +10,25 @@ class Blog extends Component {
     super(props);
     this.state = {
       posts: [{
-        image: 'https://instagram.fmad3-7.fna.fbcdn.net/vp/3c1454cbd4ba418d62c08c1d51fc431d/5E4916D4/t51.2885-15/sh0.08/e35/s640x640/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 640w,https://instagram.fmad3-7.fna.fbcdn.net/vp/091a95803812d67012a249799d3cede6/5E467DD4/t51.2885-15/sh0.08/e35/s750x750/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 750w,https://instagram.fmad3-7.fna.fbcdn.net/vp/25133263f66b0043f78a272210bd161b/5E68EA31/t51.2885-15/e35/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 1080w',
+        image: 'https://scontent-mad1-1.cdninstagram.com/vp/8fc2f8c44c2501706b13b1bd3d20a08c/5E479009/t51.2885-15/sh0.08/e35/s640x640/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 640w,https://scontent-mad1-1.cdninstagram.com/vp/a236940d650879077bf7d4b785668c92/5E4D9309/t51.2885-15/sh0.08/e35/s750x750/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 750w,https://scontent-mad1-1.cdninstagram.com/vp/3658178c6590b992ac03a395a0902b31/5E6AF3EC/t51.2885-15/e35/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 1080w',
         title: 'Hambre emocional',
         date: '13-07-1989',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
         link: ''
       },{
-        image: 'https://instagram.fmad3-7.fna.fbcdn.net/vp/3c1454cbd4ba418d62c08c1d51fc431d/5E4916D4/t51.2885-15/sh0.08/e35/s640x640/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 640w,https://instagram.fmad3-7.fna.fbcdn.net/vp/091a95803812d67012a249799d3cede6/5E467DD4/t51.2885-15/sh0.08/e35/s750x750/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 750w,https://instagram.fmad3-7.fna.fbcdn.net/vp/25133263f66b0043f78a272210bd161b/5E68EA31/t51.2885-15/e35/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 1080w',
+        image: 'https://scontent-mad1-1.cdninstagram.com/vp/8fc2f8c44c2501706b13b1bd3d20a08c/5E479009/t51.2885-15/sh0.08/e35/s640x640/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 640w,https://scontent-mad1-1.cdninstagram.com/vp/a236940d650879077bf7d4b785668c92/5E4D9309/t51.2885-15/sh0.08/e35/s750x750/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 750w,https://scontent-mad1-1.cdninstagram.com/vp/3658178c6590b992ac03a395a0902b31/5E6AF3EC/t51.2885-15/e35/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 1080w',
         title: 'Hambre emocional 2',
         date: '18-12-1991',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
         link: ''
       },{
-        image: 'https://instagram.fmad3-7.fna.fbcdn.net/vp/3c1454cbd4ba418d62c08c1d51fc431d/5E4916D4/t51.2885-15/sh0.08/e35/s640x640/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 640w,https://instagram.fmad3-7.fna.fbcdn.net/vp/091a95803812d67012a249799d3cede6/5E467DD4/t51.2885-15/sh0.08/e35/s750x750/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 750w,https://instagram.fmad3-7.fna.fbcdn.net/vp/25133263f66b0043f78a272210bd161b/5E68EA31/t51.2885-15/e35/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 1080w',
+        image: 'https://scontent-mad1-1.cdninstagram.com/vp/8fc2f8c44c2501706b13b1bd3d20a08c/5E479009/t51.2885-15/sh0.08/e35/s640x640/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 640w,https://scontent-mad1-1.cdninstagram.com/vp/a236940d650879077bf7d4b785668c92/5E4D9309/t51.2885-15/sh0.08/e35/s750x750/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 750w,https://scontent-mad1-1.cdninstagram.com/vp/3658178c6590b992ac03a395a0902b31/5E6AF3EC/t51.2885-15/e35/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 1080w',
         title: 'Hambre emocional',
         date: '13-07-1989',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
         link: ''
       },{
-        image: 'https://instagram.fmad3-7.fna.fbcdn.net/vp/3c1454cbd4ba418d62c08c1d51fc431d/5E4916D4/t51.2885-15/sh0.08/e35/s640x640/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 640w,https://instagram.fmad3-7.fna.fbcdn.net/vp/091a95803812d67012a249799d3cede6/5E467DD4/t51.2885-15/sh0.08/e35/s750x750/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 750w,https://instagram.fmad3-7.fna.fbcdn.net/vp/25133263f66b0043f78a272210bd161b/5E68EA31/t51.2885-15/e35/56759097_1044038035793748_262629007288821982_n.jpg?_nc_ht=instagram.fmad3-7.fna.fbcdn.net&_nc_cat=100 1080w',
+        image: 'https://scontent-mad1-1.cdninstagram.com/vp/8fc2f8c44c2501706b13b1bd3d20a08c/5E479009/t51.2885-15/sh0.08/e35/s640x640/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 640w,https://scontent-mad1-1.cdninstagram.com/vp/a236940d650879077bf7d4b785668c92/5E4D9309/t51.2885-15/sh0.08/e35/s750x750/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 750w,https://scontent-mad1-1.cdninstagram.com/vp/3658178c6590b992ac03a395a0902b31/5E6AF3EC/t51.2885-15/e35/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 1080w',
         title: 'Hambre emocional 2',
         date: '18-12-1991',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
@@ -47,8 +47,8 @@ class Blog extends Component {
           </div>
         </div>
         <div className="row Blog-content">
-          {this.state.posts.map(post => (
-            <div className="col-md-6">
+          {this.state.posts.map((post, index) => (
+            <div className="col-md-6" key={index}>
               <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                 <div className="col p-4 d-flex flex-column position-static">
                   <h3 className="mb-0">{post.title}</h3>
