@@ -9,6 +9,7 @@ import Home from './views/home/Home';
 import Contact from './views/contact/Contact';
 import About from './views/about/About';
 import Blog from './views/blog/Blog';
+import Post from './views/blog/components/post/Post';
 
 export default function Routes() {
   return (
@@ -23,9 +24,10 @@ export default function Routes() {
           <Route path="/sobre-nutriconsultant">
             <About />
           </Route>
-          <Route path="/blog-nutricion">
+          <Route exact path="/blog-nutricion">
             <Blog />
           </Route>
+          <Route path="/blog-nutricion/:id" children={<Post />} />
         </Switch>
     </Router>
   );

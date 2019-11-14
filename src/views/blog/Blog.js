@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import {
+  Link
+} from "react-router-dom";
 import Menu from '../../components/menu/Menu';
 import Footer from '../../components/footer/Footer';
 import './Blog.css';
@@ -14,25 +17,25 @@ class Blog extends Component {
         title: 'Hambre emocional',
         date: '13-07-1989',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
-        link: ''
+        link: '/blog-nutricion/post1'
       },{
         image: 'https://scontent-mad1-1.cdninstagram.com/vp/8fc2f8c44c2501706b13b1bd3d20a08c/5E479009/t51.2885-15/sh0.08/e35/s640x640/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 640w,https://scontent-mad1-1.cdninstagram.com/vp/a236940d650879077bf7d4b785668c92/5E4D9309/t51.2885-15/sh0.08/e35/s750x750/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 750w,https://scontent-mad1-1.cdninstagram.com/vp/3658178c6590b992ac03a395a0902b31/5E6AF3EC/t51.2885-15/e35/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 1080w',
         title: 'Hambre emocional 2',
         date: '18-12-1991',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
-        link: ''
+        link: '/blog-nutricion/post2'
       },{
         image: 'https://scontent-mad1-1.cdninstagram.com/vp/8fc2f8c44c2501706b13b1bd3d20a08c/5E479009/t51.2885-15/sh0.08/e35/s640x640/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 640w,https://scontent-mad1-1.cdninstagram.com/vp/a236940d650879077bf7d4b785668c92/5E4D9309/t51.2885-15/sh0.08/e35/s750x750/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 750w,https://scontent-mad1-1.cdninstagram.com/vp/3658178c6590b992ac03a395a0902b31/5E6AF3EC/t51.2885-15/e35/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 1080w',
         title: 'Hambre emocional',
         date: '13-07-1989',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
-        link: ''
+        link: '/blog-nutricion/post3'
       },{
         image: 'https://scontent-mad1-1.cdninstagram.com/vp/8fc2f8c44c2501706b13b1bd3d20a08c/5E479009/t51.2885-15/sh0.08/e35/s640x640/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 640w,https://scontent-mad1-1.cdninstagram.com/vp/a236940d650879077bf7d4b785668c92/5E4D9309/t51.2885-15/sh0.08/e35/s750x750/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 750w,https://scontent-mad1-1.cdninstagram.com/vp/3658178c6590b992ac03a395a0902b31/5E6AF3EC/t51.2885-15/e35/55952378_326616618046774_4503395431466775511_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=110 1080w',
         title: 'Hambre emocional 2',
         date: '18-12-1991',
         shortDescription: 'Aquellos días que nos sentimos tristes o sentimos un vacío y nos lleva a querer comer algo, porque sentimos que podemos llenar "eso que nos falta"',
-        link: ''
+        link: '/blog-nutricion/post4'
       }]
     }
   }
@@ -54,7 +57,9 @@ class Blog extends Component {
                   <h3 className="mb-0">{post.title}</h3>
                   <div className="mb-1 text-muted">{post.date}</div>
                   <p className="card-text mb-auto">{post.shortDescription}</p>
-                  <a href="#" className="stretched-link">Leer más</a>
+                  <Link to={post.link} className="Menu-link">
+                    Leer más
+                  </Link>
                 </div>
                 <div className="col-auto d-none d-lg-block">
                 <img className="bd-placeholder-img" src={post.image} width="250" height="250" />
