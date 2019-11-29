@@ -5,6 +5,8 @@ import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeadset } from '@fortawesome/free-solid-svg-icons'
 
+const axios = require('axios').default;
+
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -19,6 +21,14 @@ class Contact extends Component {
   handleFormSubmit() {
     const email = document.getElementById('contactEmail').value;
     console.log(email);
+    axios({
+      method: 'post',
+      url: 'http://localhost:8000/contact/',
+      headers: { 'content-type': 'application/x-www-form-urlencoded' },
+      data: {
+        email: 'didac'
+      }
+    });
   }
 
   render() {
