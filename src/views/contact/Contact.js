@@ -4,8 +4,11 @@ import Footer from '../../components/footer/Footer';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeadset } from '@fortawesome/free-solid-svg-icons'
+import { EmailRemote } from '../../domain/datasources/email.remote'
+import { EmailRepository } from '../../domain/model/email.repository'
+import { SendContactEmail } from '../../domain/usecases/sendcontactemail'
 
-const axios = require('axios').default;
+const sendContactEmail = new SendContactEmail(new EmailRepository(new EmailRemote()));
 
 class Contact extends Component {
   constructor(props) {
@@ -20,15 +23,13 @@ class Contact extends Component {
 
   handleFormSubmit() {
     const email = document.getElementById('contactEmail').value;
-    console.log(email);
-    axios({
-      method: 'post',
-      url: 'http://localhost:8000/contact/',
-      headers: { 'content-type': 'application/x-www-form-urlencoded' },
-      data: {
-        email: 'didac'
-      }
-    });
+    sendContactEmail.execute(email)
+      .then(res => {
+        console.log(res);
+      })
+      .catch(err => {
+        console.log(err);
+      });
   }
 
   render() {
