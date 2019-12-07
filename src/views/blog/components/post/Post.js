@@ -3,8 +3,6 @@ import ParseToHtml from 'html-react-parser';
 import Menu from '../../../../components/menu/Menu';
 import Footer from '../../../../components/footer/Footer';
 import '../../Blog.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComment, faHeadset, faUtensils } from '@fortawesome/free-solid-svg-icons'
 
 class Post extends Component {
   constructor(props) {
@@ -39,7 +37,7 @@ class Post extends Component {
                   <p className="card-text mb-auto">{ParseToHtml(post.shortDescription)}</p>
                 </div>
                 <div className="col-auto d-none d-lg-block">
-                <img className="bd-placeholder-img" src={post.image} width="250" height="250" />
+                <img alt="postImage" className="bd-placeholder-img" src={post.image} width="250" height="250" />
                 </div>
               </div>
             </div>
