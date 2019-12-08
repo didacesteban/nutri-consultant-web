@@ -23,7 +23,9 @@ class Contact extends Component {
 
   handleFormSubmit() {
     const email = document.getElementById('contactEmail').value;
-    sendContactEmail.execute(email)
+    const subject = document.getElementById('contactSubject').value;
+    const message = document.getElementById('contactMessage').value;
+    sendContactEmail.execute({email, subject, message})
       .then(res => {
         console.log(res);
       })
@@ -50,11 +52,11 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <label>Asunto</label>
-                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Consulta a tratar" />
+                <input type="text" className="form-control" id="contactSubject" placeholder="Consulta a tratar" />
               </div>
               <div className="form-group">
                 <label>Consulta</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea className="form-control" id="contactMessage" rows="3"></textarea>
               </div>
               <div className="form-group">
                 <button type="button" className="btn btn-dark" onClick={this.handleFormSubmit}>Enviar consulta</button>
